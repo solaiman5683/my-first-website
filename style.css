@@ -29,7 +29,7 @@ p {
 }
 
 .btn {
-
+    text-align: center;
     padding: 10px 20px;
     border: 1px solid #d3d3d3;
     color: #f1f1f1;
@@ -37,8 +37,12 @@ p {
     margin: auto;
     border-radius: 10px;
 }
-.btn:hover{
-    background-color:#d3d3d3;
+
+.btn:hover {
+    background-color: #d3d3d3;
+}
+
+.btn:hover a {
     color: #333;
 }
 
@@ -46,5 +50,4 @@ p {
     padding: 10px 20px;
     color: #f1f1f1;
     text-decoration: none;
-    text-align: center;
 }
