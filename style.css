@@ -1,0 +1,23 @@
+body{
+    background: rgba(12, 61, 80, 0.616);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+
+.container{
+    width: 90%;
+    margin: auto;
+}
+h1,
+h3{
+    text-align: center;
+    color: #f1f1f1;
+}
+p{
+    padding: 20px;
+    text-align: justify;
+}
