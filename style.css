@@ -1,35 +1,50 @@
-body{
+body {
     background: rgba(12, 61, 80, 0.616);
 }
-*{
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: monospace;
 }
 
-.container{
+.container {
     width: 90%;
     margin: 20px auto;
 }
+
 h1,
-h3{
+h3 {
     text-align: center;
     color: #f1f1f1;
 }
-p{
+
+p {
     color: #f1f1f1;
     padding: 20px;
     text-align: justify;
     width: 60%;
     margin: auto;
 }
-.btn{
-    text-align: center;
+
+.btn {
+
+    padding: 10px 20px;
     border: 1px solid #d3d3d3;
+    color: #f1f1f1;
+    width: 15%;
+    margin: auto;
+    border-radius: 10px;
 }
-.btn a{
+.btn:hover{
+    background-color:#d3d3d3;
+    color: #333;
+}
+
+.btn a {
     padding: 10px 20px;
     color: #f1f1f1;
     text-decoration: none;
+    text-align: center;
 }
